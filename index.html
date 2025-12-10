@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gondaaal Group of industries</title>
+    <link rel="stylesheet" href="website.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto,Arimo"
+    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+   integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"><img src="logo2.PNG" alt="" /></a>
+      <div>
+      <ul id="navbar">
+        <li id="times"><i class="fa-solid fa-xmark"></i></li>
+        <li><a class="active" href="Index.html">Home</a></li>
+        <li>
+          <a href="about.html">About </i>
+        </a>
+        
+        </li>
+        <li>
+          <a href="Product.html">Product <i class="fas fa-caret-down"></i></a>
+<div class="dropdown_menu">
+          <ul>
+            <li><a href="Product.html">Gondal plastine</a><i class="fas fa-caret-down"></i>
+            <div class="sub-dropdown-menu">
+                    <ul>
+                        <li><a href="Product.html">S-type Single Wall</a></li>
+                        <li><a href="Product.html">Low Ridge Twin Wall</a></li>
+                        <li><a href="Product.html">High Ridge Twin Wall</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Product.html">Gondal Pre-cast Concrete</a><i class="fas fa-caret-down"></i>
+            <div class="sub-dropdown-menu">
+                    <ul>
+                        <li><a href="Product.html">I-section Girders</a></li>
+                        <li><a href="Product.html">Tray Slabs</a></li>
+                        <li><a href="Product.html">Double Tees</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="Product.html">Gondal Pre Engineered buildings</a></li>
+            <li><a href="Product.html">K span</a></li>
+          </ul>
+        </div>
+
+        </li>
+
+        <li><a href="contact.html">Contact </a></li>
+        <li><a href="reviews.html">Review</a></li>
+      </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fa-solid fa-list"></i>
+      </div>
+    </section>
+    <section id="hero">
+      <h1><strong>Welcome to Gondal group of Industries!</strong></h1>
+      <h1>Where innovation meets excellance</h1>
+    </section>
+    <section id="intouch">
+      <h2>Get in touch</h2>
+    </section>
+    <section id="information">
+      <div class="container">
+        <div class="locationbox">
+          <div class="part1">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="part2">
+              <p>location</p>
+              <p class="blue">Visit Us At</p>
+            </div>
+          </div>
+          <p>Gondal Group of industries,Gujrat,Punjab</p>
+        </div>
+        <div class="callbox">
+          <div class="part1">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="part2">
+              <p>24*7 service</p>
+              <p class="blue">Call Us On</p>
+            </div>
+          </div>
+          <p>0317-4000084</p>
+        </div>
+        <div class="mailbox">
+          <div class="part1">
+            <div class="icon"><i class="fa-solid fa-message"></i></div>
+            <div class="part2">
+              <p>Drop A Mail</p>
+              <p class="blue">Email Address</p>
+            </div>
+          </div>
+          <p>info@gondalgroup.com</p>
+        </div>
+        <div class="officebox">
+          <div class="part1">
+            <div class="icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="part2">
+              <p>Office Hours</p>
+              <p class="blue">Opening Time</p>
+            </div>
+          </div>
+          <p>Mon-Sun: 8am-6pm</p>
+        </div>
+      </div>
+    </section>
+    <section id="comment">
+      <h2>Request A Quote</h2>
+      <p>Ready to transform your industrial projects? Get a quote fot trailored solutions.</p>
+      <div class="form-container">
+        <h2>Contact Our Sales Team</h2>
+        <form action="#" method="POST" class="contact-form">
+            
+            <div class="form-grid">
+                
+                <div class="input-group">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone No <span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(+00) 123 456 7890">
+                </div>
+                  <div class="input-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" placeholder="Gondal Group of Industries">
+                </div>
+               
+                
+                <div class="input-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="email@company.com">
+                </div>
+                 <div class="input-group">
+                    <label for="product">Product Selection <span class="required">*</span></label>
+                    <select id="product" name="product" required onchange="updateSubProduct(this.value)">
+                        <option value="" disabled selected>Select a Product</option>
+                        <option value="Gondal Plasline">Gondal Plasline</option>
+                        <option value="Gondal Pre-cast Concrete">Gongal Pre-cast Concrete</option>
+                        <option value="gondal Pre Engineered Buildings">gondal Pre Engineered Buildings</option>
+                        <option value="K Span">K Span</option>
+                    </select>
+                </div>
+               
+                <div class="input-group subproduct-select">
+                    <label for="subproduct">Sub-Product</label>
+                    <select id="subproduct" name="subproduct" disabled>
+                        <option value="" disabled selected>Select a Sub-Product</option>
+                        <optgroup label="Gondal Plasline Options" data-parent="Gondal Plasline">
+                            <option value="S-type Single Wall Corrugated Sheet">S-type Single Wall Corrugated Sheet</option>
+                            <option value="low Ridge Twin Wall Corrugated Sheets">low Ridge Twin Wall Corrugated Sheets</option>
+                            <option value="High Ridge Twin Wall Corrugated Sheets">High Ridge Twin Wall Corrugated Sheets</option>
+                        </optgroup>
+                        <optgroup label="Gondal Pre-cast Concrete Options" data-parent="Gondal Pre-cast Concrete">
+                            <option value="Pre-cast Concrete">Pre-cast Concrete</option>
+                            <option value="I-section Girders">I-section Girders</option>
+                            <option value="Tray Slabs">Tray Slabs</option>
+                            <option value="Double Tees">Double Tees</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="input-group full-width">
+                <label for="details">Additional Details</label>
+                <textarea id="details" name="details" rows="5" placeholder="Tell us more about your needs..."></textarea>
+            </div>
+
+            <div class="full-width">
+                <button type="submit">Send Inquiry</button>
+            </div>
+
+    </section>
+     <footer>
+        <div class="footer">
+            <div class="contact">
+                <h3>Quick Contact</h3>
+                <p>If you any questions or need help, feel free to our contact team</p>
+                <p><strong>Customer Complain :</strong>0300-4000076 </p>
+                <p>Apex Industries ,Gujrat,Punjab,Pakistan.</p>
+            </div>
+
+            <div class="About">
+                <h3>About Industry</h3>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="product">
+                <h3>Our Products</h3>
+                <ul>
+                    <li class="has-sub-dropdown-footer"><a href="Product.html">Gongal Plasline</a><i class="fas fa-caret-down"></i>
+                        <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="#">S-type Single Wall</a></li>
+                                <li><a href="#">Low Ridge Twin Wall</a></li>
+                                <li><a href="#">High Ridge Twin Wall</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Product.html">Pre Engineered Building</a></li>
+                    <li class="has-sub-dropdown-footer"><a href="Product.html">Pre-Cast Concrete</a><i class="fas fa-caret-down"></i>
+                        <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="#">I-section Girders</a></li>
+                                <li><a href="#">Tray Slabs</a></li>
+                                <li><a href="#">Double Tees</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Product.html">K Span</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p><i class="fa-solid fa-copyright"></i> &nbsp;2025 Gondal Group of Industries.All Rights Reserved.</p>
+        </div>
+    </footer>
+  </body>
+  <script src="website.js"></script>
+</html>
